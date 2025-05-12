@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>condiçoe</title><!--{} t `` []-->
+
+    <style>
+       
+    </style>
+</head>
+<body>
+   <h1>qual a sua nacionalidade? </h1>
+    digite seu pais: <input type="text" name="tztcel" id="tztcel">
+   <input type="button" value="verificar" onclick="calcular()">
+   <div id="re"></div>
+
+    <script>
+
+
+        function calcular(){
+            var pais = window.document.getElementById('tztcel')
+            var re = window.document.getElementById('re')
+            if (pais.value == 'brasil'){
+                re.innerHTML += 'é brasileiro' 
+            } else{
+                re.innerHTML = 'nao é brasileiro'
+            }             
+        } 
+        
+    </script>
+
+   
+    
+</body>
+</html>
