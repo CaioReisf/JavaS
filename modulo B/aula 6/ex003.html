@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> meu primeiro programa</title>
+    <title> manipulando dados</title>
     <style>
         body{
             background-color: aquamarine;
@@ -18,9 +18,11 @@
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, harum at necessitatibus, corrupti laborum doloremque et tempora a asperiores, ex adipisci minus rem ab cupiditate quaerat? Tempore recusandae porro provident?</p>
 
     <script>
-        window.alert('minha primeira mensagem')
-        window.confirm('esta gostando de javascripit?')
-        window.prompt('qual e o seu nome?')
+       var n1 = Number(window.prompt('digite um numero:')) // devolve uma string
+       var n2 = Number(window.prompt('digite outro numero:')) //devolve uma string
+       var soma = n1 + n2
+       window.alert(`a soma de ${n1} + ${n2} eh de ${soma}`)
+        
     </script>
 </body>
 </html>
