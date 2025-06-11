@@ -33,4 +33,16 @@ teve esse codigo dificil tbm: " n1.toLocaleString('pt-BR' ,{style: 'currency', c
  
 4- na aula 7(parte 1 )comecou o estudos de operadores aritimeticos ( + , - , / , % , * , **), vi sobre operadores de atribuicoes (+= , -=, n++, --n). teve tbm sobre ordem de precedencia.
 
-5- na aula 5 teve operadores relacionais (<, >, <=, => !=), tbm teve operadores logicos(&&, II , !) e tve tbm os operadores ternarios (?:)
+5- na aula 8 teve operadores relacionais (<, >, <=, => !=), tbm teve operadores logicos(&&, II , !) e tve tbm os operadores ternarios (?:)
+
+- 
+- 
+- 
+- 
+- 
+
+===== DIA 3 =====
+
+6- na aula 9 comecou o estudo de DOM, aprendi como funciona a " arvore DOM ". aprendi sobre o uso dos seletores (window.document.getelmentby... id, tag, name, class) e sobre o "Querryselector".
+
+7- na aula 10 continuou os estudso sobre DOM, aprendi, mais sobre os seletores, mas o foco foi nas FUNCOES(function) as funcoes sao blocos que so sao acionadas quando algo acontece com clicar, mexer o mouse e etc... (onclick, onmouseenter, onmouseout)
