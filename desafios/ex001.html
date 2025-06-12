@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" name="n1" id="n1">
+    <input type="button" value="verificar" onclick="clicar()">
+    <div id="res"></div>
+
+    <script>
+        function clicar(){
+            var idade = window.document.getElementById('n1')
+            var res = window.document.getElementById('res')
+            n = Number(idade.value)
+            if (n <18){
+                res.innerHTML+=('menor de idade')
+            }else{
+                res.innerHTML+=('maior de idade')
+            }
+
+
+        }
+    </script>
+</body>
+</html>
