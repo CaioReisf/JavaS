@@ -46,3 +46,13 @@ teve esse codigo dificil tbm: " n1.toLocaleString('pt-BR' ,{style: 'currency', c
 6- na aula 9 comecou o estudo de DOM, aprendi como funciona a " arvore DOM ". aprendi sobre o uso dos seletores (window.document.getelmentby... id, tag, name, class) e sobre o "Querryselector".
 
 7- na aula 10 continuou os estudso sobre DOM, aprendi, mais sobre os seletores, mas o foco foi nas FUNCOES(function) as funcoes sao blocos que so sao acionadas quando algo acontece com clicar, mexer o mouse e etc... (onclick, onmouseenter, onmouseout)
+
+- 
+-
+-
+-
+-
+
+===== DIA 4 ===== ESTUDAR MAIS!!!
+
+8- na aula 11 comecou o estudos sobre condicoes (IF, ELSE), teve o uso do "console.log" para mostrar resultados node
