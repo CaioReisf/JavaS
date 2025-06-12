@@ -56,3 +56,5 @@ teve esse codigo dificil tbm: " n1.toLocaleString('pt-BR' ,{style: 'currency', c
 ===== DIA 4 ===== ESTUDAR MAIS!!!
 
 8- na aula 11 comecou o estudos sobre condicoes (IF, ELSE), teve o uso do "console.log" para mostrar resultados node
+
+9- na aula 12 falou sobre condicoes multiplas e aninhadas
