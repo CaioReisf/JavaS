@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+ body{     
+    background-color: rgb(51, 51, 183);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+div{
+    
+}
+section{
+  color: black;
+  border: black 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    gap: 30px;
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
