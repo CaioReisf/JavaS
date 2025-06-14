@@ -58,3 +58,13 @@ teve esse codigo dificil tbm: " n1.toLocaleString('pt-BR' ,{style: 'currency', c
 8- na aula 11 comecou o estudos sobre condicoes (IF, ELSE), teve o uso do "console.log" para mostrar resultados node
 
 9- na aula 12 falou sobre condicoes multiplas e aninhadas
+
+-
+-
+-
+-
+-
+
+===== DIA 5/6 ===== REVISAR OS EXERCICIOS !!!
+
+10- nesses dias eu apenas fiz exercicios de javascript. aprendi a colocar imagens pelos js " img.setAttribute('src', 'bebehomen.jpg') e res.appendChild(img) ", a colocar tags e id pelo js  " document.createElement('img') ", via alguns comandos novos " 
