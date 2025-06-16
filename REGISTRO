@@ -68,3 +68,15 @@ teve esse codigo dificil tbm: " n1.toLocaleString('pt-BR' ,{style: 'currency', c
 ===== DIA 5/6 ===== REVISAR OS EXERCICIOS !!!
 
 10- nesses dias eu apenas fiz exercicios de javascript. aprendi a colocar imagens pelos js " img.setAttribute('src', 'bebehomen.jpg') e res.appendChild(img) ", a colocar tags e id pelo js  " document.createElement('img') ", via alguns comandos novos " 
+
+-
+-
+-
+-
+-
+
+===== DIA 7 ===== FAZER EXERCICIOS !!!!!
+
+11- na aula 13 comcecou os estudos sobre repeticoes, na aula aprendi 2 metodos de fazer uma repeticao ( WHILE, DO) achei a forma do WHILE mais facil e mais intuitiva.
+
+12- a aula 14 foi sobre o laco de repeticao " FOR(;;) ", foi o laco de repeticao mais facil de se entender, mas preciso fazer exercicios sobre os 3 que aprendi para saber uqla eu tenho mais facilidade e dificuldade.
