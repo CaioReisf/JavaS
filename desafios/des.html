@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>gerenciador de senha</h1>
+
+    <input type="text" id="senha" placeholder="digite sua senha">
+    <input type="button" value="verificar" id="veri" onclick="verificar()">
+    <div id="res">resultado:</div>
+
+    <script>
+        function verificar(){
+            var senha = window.document.getElementById('senha')
+            var veri= window.document.getElementById('veri')
+    
+            if (senha != 'js123'){
+                while (senha != 'js123'){
+                    window.alert = ('errou tente novamente!')
+                
+
+                }
+            }else{
+                window.alert = ('acertou!')
+            }
+            
+
+        }
+    </script>
+</body>
+</html>

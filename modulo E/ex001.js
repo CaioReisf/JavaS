@@ -1,4 +1,4 @@
-var c = 1
+var c = 5
 do{
     console.log('tudo bem')
     c++
