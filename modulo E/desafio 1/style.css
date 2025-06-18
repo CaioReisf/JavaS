@@ -23,8 +23,3 @@ section{
   border-radius: 20px;
 }
 
-#forms{
-  display: flex;
-  flex-flow: column wrap;
-  align-items: start;
-}
