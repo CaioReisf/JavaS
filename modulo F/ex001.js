@@ -4,4 +4,4 @@ num.push(7)
 console.log(`nosso vetor e o ${num}`)
 
 //num.length para ver o comprimento do veitor
-//num.sort() ele coloca os elementos em ordem crescente
+//num.sort() ele coloca os elementos em ordem crescent
