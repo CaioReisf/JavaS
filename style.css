@@ -23,24 +23,47 @@ div.dados{
     align-items: center;
     justify-content: center;
     border-radius: 30px;
-    border: green 2px solid;
     width: 500px;
     height: 500px;
     margin-top:100px;
     gap: 30px;
-    background-color: rgb(36, 35, 35);
+    color: black;
+    background-color: rgb(38, 37, 37);
+
     
+    
+}
+
+.dados h1{
+    color: green;
 }
 
 .dados input{
     padding: 15px;
-    border-radius: 100px;
+    border-radius: 15px;
     border: none;
-    box-shadow: 5px 5px 10px black;
     color: black;
+    border: green 1px solid;
+    
 }
 
 .btn{
     background-color: green;
     cursor: pointer;
+    color: white;
+    transition:.5s;
+    
 }
+
+.btn:hover{
+    background-color: white;
+    color: green;
+    transform: translateY(-7px);
+
+}
+
+    .magreza     { color: #c0392b; }
+    .normal      { color: #27ae60; }
+    .sobrepeso   { color: #e67e22; }
+    .obesidade1  { color: #d35400; }
+    .obesidade2  { color: #c82333; }
