@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CALCULADORA DE MEDIA</h1>
+
+    <p>
+        primeira nota: <input type="number" name="num" id="innota1">
+    </p>
+
+    <input type="button" value="verificar media e situacao" id="calc">
+    <h2 id="outres"></h2>
+
+    <script>
+        function calcular(){
+            let inNota1 = Number(document.getElementById("innota1").value)
+            let outRes = document.getElementById("outres")
+
+            if( inNota1 % 2 == 0){
+                outRes.textContent=(`o numero ${inNota1} eh par`)
+                outRes.style.color = 'red'
+            }else{
+                outRes.textContent=(`o numero ${inNota1} eh impar`)
+                outRes.style.color = 'blue'
+            }
+
+        }
+
+        let calc = document.getElementById("calc").addEventListener("click", calcular )
+        
+        
+
+    </script>
+</body>
+</html>
