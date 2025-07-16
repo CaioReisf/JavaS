@@ -10,19 +10,39 @@
     <h1>MEDIDOR DE VELOCIDADE: </h1>
 
     <p>
-        <input type="number" id="invelocidade">
+       Velocidade permitida: <input type="number" id="invelocidade">
     </p>
 
     <p>
-        <input type="number" id="inmotorista">
+       Velocidade do motorista: <input type="number" id="inmotorista">
     </p>
 
     <input type="button" value="verificar velocidade" id="btnvel">
     <h2 id="outres"></h2>
 
     <script>
-        
+        function vericarvelocidade(){
+            let inVelocidade = Number(document.getElementById('invelocidade').value)
+            let inMotorista = Number(document.getElementById('inmotorista').value)
+            let outRes = document.getElementById('outres')
+
+            let c1 = ((20 / 100) * inVelocidade) + inVelocidade
+
+            if (inMotorista <= inVelocidade){
+                outRes.textContent = 'Velocidade Permitida - Sem Multa'
+                outRes.style.color = 'blue'
+            } else if (inMotorista >= inVelocidade && inMotorista <= c1){
+                outRes.textContent = 'Velocidade Acima - Multa leve'
+                outRes.style.color = 'yellow'
+            } else if(inMotorista > c1){
+                outRes.textContent = 'Alta Velocidade - Multa Grave'
+                outRes.style.color = 'red' 
+            }
+        }
+
+        let btnvel = document.getElementById('btnvel').addEventListener("click", vericarvelocidade)
     </script>
     
+
 </body>
 </html>
