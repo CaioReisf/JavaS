@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>formar triangulo:</h1>
+
+    <p>
+      Lado A:  <input type="number" id="inladoa">
+    </p>
+
+    <p>
+        Lado B: <input type="number" id="inladob">
+
+    </p>
+
+    <p>
+        Lado C:<input type="number" id="inladoc">
+    </p>
+
+    <input type="button" value="formar" id="btnformar">
+
+    <h2 id="outres"></h2>
+
+    <script>
+        function formartriangulo(){
+            let inladoA = Number(document.getElementById("inladoa").value)
+            let inladoB = Number(document.getElementById("inladob").value)
+            let inladoC = Number(document.getElementById("inladoc").value)
+            let outRes = document.getElementById('outres')
+
+            if (inladoA + inladoB < inladoC || inladoB + inladoC < inladoA || inladoA + inladoC < inladoB){
+                outRes.textContent = 'VALORES INCOMPATIVEIS'
+            } else if (inladoA == inladoB && inladoB == inladoC && inladoA == inladoC){
+                outRes.textContent = 'TRIANGULO FORMADO - Tipo: Equilatero'
+            } else if (inladoA != inladoB && inladoB != inladoC && inladoA != inladoC){
+                outRes.textContent = 'TRIANGULO FORMADO - Tipo: Escaleno'
+            } else if (inladoA == inladoB || inladoA == inladoC ){
+                outRes.textContent = 'TRIANGULO FORMADO - Tipo: Isocesles'
+            }
+        }
+
+        let btnformar = document.getElementById('btnformar').addEventListener("click", formartriangulo)
+    </script>
+</body>
+</html>
