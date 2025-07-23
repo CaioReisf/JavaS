@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tabuada</h1>
+
+    <p>
+        Digite um numero de 1 a 10: <input type="number" id="innum">
+    </p>
+    <input type="button" value="gerar tabuada" id="btntab">
+
+    <p id="outres"></p> 
+
+    <script>
+        function Tabuada(){
+            let inNum = Number(document.getElementById('innum').value)
+            let outRes = document.getElementById('outres')
+            let resposta = ''
+
+            if (inNum == 0 || isNaN(inNum)){
+                alert('digite um numero valido')
+                inNum.focus()
+                return;
+                
+            }
+            
+            
+            for(let i = 1 ; i <= 10; i++){
+
+                resposta = resposta + `${i} x ${inNum} = ` + i*inNum + "\n"
+                outRes.textContent = resposta 
+                
+
+
+            }
+        }
+
+        let btntab = document.getElementById('btntab').addEventListener("click", Tabuada)
+    </script>
+</body>
+</html>
