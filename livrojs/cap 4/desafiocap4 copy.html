@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tabuada</h1>
+
+    <p>
+        Digite uma fruta <input type="text" id="infruta">
+    </p>
+    
+    <p>
+        Digite um numero: <input type="number" id="innum">
+    </p>
+    <input type="button" value="repetir fruta" id="btnfrut">
+
+    <p id="outres"></p> 
+
+    <script>
+
+        function fruteira(){
+            let inFruta = document.getElementById('infruta').value 
+            let inNum = Number(document.getElementById('innum').value)
+            let outRes = document.getElementById('outres')
+
+            var repete = ''
+
+            for(let i = 1; i <=inNum; i++){
+                repete = repete + inFruta + "*"
+                outRes.textContent = repete
+            }
+
+
+        }
+
+        let btnfrut = document.getElementById('btnfrut').addEventListener("click", fruteira)
+
+    </script>
+</body>
+</html>
