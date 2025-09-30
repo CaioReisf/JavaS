@@ -27,8 +27,9 @@ function contar(){
             
         }else{
             //contagem regressiva
-            for (c =i; c>=f;c-=p)
+            for (c =i; c>=f;c-=p){
                 res.innerHTML+= `${c} \u{1F920}`
+            }
         }
         res.innerHTML += `\u{1F3C1}`
 
